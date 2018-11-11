@@ -9,12 +9,12 @@
 #
 
 # System config
-#use constant ADMIN_PASS => 'CHANGEME';			# Admin password. For fucks's sake, change this.
-#use constant NUKE_PASS => 'CHANGEME';			# Password to nuke a board. Change this too, NOW!
-#use constant SECRET => 'CHANGEME';				# Cryptographic secret. CHANGE THIS to something totally random, and long.
-#use constant SQL_DBI_SOURCE => 'DBI:mysql:database=CHANGEME;host=localhost'; # DBI data source string (mysql version, put server and database name in here)
-#use constant SQL_USERNAME => 'CHANGEME';		# MySQL login name
-#use constant SQL_PASSWORD => 'CHANGEME';		# MySQL password
+use constant ADMIN_PASS => 'thisisagreatpass';			# Admin password. For fucks's sake, change this.
+use constant NUKE_PASS => 'thisisagreatpass';			# Password to nuke a board. Change this too, NOW!
+use constant SECRET => 'dal;skjf932fpsjaspffagpiasgipofg';				# Cryptographic secret. CHANGE THIS to something totally random, and long.
+use constant SQL_DBI_SOURCE => 'DBI:mysql:database=dfc7hngduo691;host=ec2-50-19-127-158.compute-1.amazonaws.com'; # DBI data source string (mysql version, put server and database name in here)
+use constant SQL_USERNAME => 'dfhossgtxwssre';		# MySQL login name
+use constant SQL_PASSWORD => '373d9704590dd5c458e23a93162d8db06f38c60d2c18f476ca5ac7d47ba61aeb';		# MySQL password
 ##use constant SQL_DBI_SOURCE => 'dbi:SQLite:dbname=wakaba.sql';		# DBI data source string (SQLite version, put database filename in here)
 ##use constant SQL_USERNAME => '';				# Not used by SQLite
 ##use constant SQL_PASSWORD => '';				# Not used by SQLite
